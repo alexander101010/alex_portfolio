@@ -1,0 +1,15 @@
+.footer {
+  ul li {
+    list-style: none;
+    display: inline;
+  }
+
+  a {
+    color: #2b2d2f;
+  }
+
+  a:hover {
+    text-decoration: none;
+    opacity: .7;
+  }
+}
