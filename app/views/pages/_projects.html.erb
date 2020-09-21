@@ -1,14 +1,12 @@
 <div class="projects">
-    <% if @projects.nil? %>
-      <h3>Projects Arriving Shortly!</h3>
-    <% else %>
-      <h3>Projects!</h3>
-
-      <% @projects. each do |project| %>
-      <div class="project-card">
-        <h5><%= project.title %></h5>
-
-      </div>
-      <% end %>
+  <% if @projects.nil? %>
+    <h3>Projects Arriving Shortly!</h3>
+  <% else %>
+    <h3>Projects!</h3>
+    <% @projects.each do |project| %>
+    <div class="project-card">
+      <h5><%= project.title %></h5>
+    </div>
     <% end %>
-  </div>
+  <% end %>
+</div>
